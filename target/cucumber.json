@@ -1,0 +1,424 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2976315700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7975155600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters with valid credentials",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_enters_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15807268100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on Board Page",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_is_on_Board_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T01:31:56.015Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6181197400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verifying 2 cards",
+        "description": "",
+        "id": "create-a-board;verifying-2-cards",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3070109300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify there are 2 cards on the board",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 17
+                }
+              ],
+              "location": "step_definitions.BoardDefs.verify_there_are_cards_on_the_board(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1872848200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27705149700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters with valid credentials",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_enters_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3284979200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on Board Page",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_is_on_Board_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T01:32:32.267Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33979100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verifying card with comment",
+        "description": "",
+        "id": "create-a-board;verifying-card-with-comment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1049353500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify there is a card with comment",
+            "match": {
+              "location": "step_definitions.BoardDefs.verify_there_is_a_card_with_comment()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1771909400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12507390600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters with valid credentials",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_enters_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3365957500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on Board Page",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_is_on_Board_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T01:33:06.224Z",
+        "before": [
+          {
+            "result": {
+              "duration": 213869000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Adding new comment",
+        "description": "",
+        "id": "create-a-board;adding-new-comment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5207794400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicks on the card",
+            "match": {
+              "location": "step_definitions.BoardDefs.clicks_on_the_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765528500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "writes a comment inside the card as \"Comment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Comment\"",
+                  "offset": 36
+                }
+              ],
+              "location": "step_definitions.BoardDefs.writes_a_comment_inside_the_card_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268836000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicks the save button",
+            "match": {
+              "location": "step_definitions.BoardDefs.clicks_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4796040700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Should be seen added comment as \"Comment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Comment\"",
+                  "offset": 32
+                }
+              ],
+              "location": "step_definitions.BoardDefs.should_be_seen_added_comment(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1579030100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22981128300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters with valid credentials",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_enters_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3278981100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is on Board Page",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_user_is_on_Board_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-20T01:33:35.135Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29981000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Setting card as DONE",
+        "description": "",
+        "id": "create-a-board;setting-card-as-done",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5154828300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "drag and drop the card to Done",
+            "match": {
+              "location": "step_definitions.BoardDefs.drag_and_drop_the_card_to_Done()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13731058200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the card should be seen in Done",
+            "match": {
+              "location": "step_definitions.BoardDefs.the_card_should_be_seen_in_Done()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Create a Board",
+    "description": "",
+    "id": "create-a-board",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Board.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
